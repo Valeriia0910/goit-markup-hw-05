@@ -631,6 +631,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon-label-form {
     top: 50%;
     fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -759,12 +762,12 @@ img {
 
 
 .checkbox-wrapper-input:checked+.label_privacy .privacy-checkbox-modal {
-    background-color: #4d5ae5;
+    background-color: var(--ocean, #404bbf);
     border: none;
 }
 
 .checkbox-wrapper-input:checked+.label_privacy .privacy-checkbox-modal svg {
-    fill: #ffffff;
+    fill: var(--cloud, #f4f4fd);
 }
 
 .form-label {
