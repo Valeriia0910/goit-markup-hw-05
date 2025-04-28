@@ -603,7 +603,6 @@ img {
 
 
 .form-modal {
-    display: flex;
     flex-direction: column;
     gap: 8px;
 }
@@ -631,9 +630,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.icon-label-form {
     top: 50%;
     fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -690,7 +686,6 @@ img {
 }
 
 .label_privacy {
-    display: flex;
     align-items: center;
     gap: 8px;
     font-weight: 400;
