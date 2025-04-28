@@ -608,7 +608,7 @@ img {
     gap: 8px;
 }
 
-
+/*
 .form-modal .icon-label-form {
     position: absolute;
     top: 50%;
@@ -621,6 +621,16 @@ img {
     align-items: center;
     top: 50%;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+*/
+
+.form-modal .icon-label-form {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
 }
 
 .form-comment {
@@ -737,13 +747,11 @@ img {
 
 
 .checkbox-wrapper-input:checked+.label_privacy .privacy-checkbox-modal {
-    background-color: var(--ocean, #404bbf);
+    background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
-.checkbox-wrapper-input:checked+.label_privacy .privacy-checkbox-modal svg {
-    fill: #f4f4fd;
-}
 
 .form-label {
     font-family: "Roboto", sans-serif;
