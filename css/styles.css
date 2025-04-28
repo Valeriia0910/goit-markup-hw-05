@@ -592,11 +592,6 @@ img {
     outline: none;
 }
 
-.div-form-input:focus-within {
-    border: 1px solid #4d5ae5;
-    border-radius: 4px;
-}
-
 .div-form-input:focus-within .icon-label-form {
     fill: #4d5ae5;
 }
@@ -624,7 +619,7 @@ img {
 }
 */
 
-.div-form-input .icon-label-form {
+.icon-label-form {
     position: absolute;
     top: 50%;
     left: 16px;
